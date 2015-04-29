@@ -10,7 +10,7 @@ import java.util.concurrent.atomic.AtomicInteger;
  * @version 1.0
  * @date 2015年4月29日上午10:10:22
  */
-public class AtomicIntegerTest {
+public class AtomicBaseTest {
 	public static void main(String[] args) {
 		ExecutorService es = Executors.newFixedThreadPool(10);
 		TestAtomicIntegerThread tat = new TestAtomicIntegerThread();
