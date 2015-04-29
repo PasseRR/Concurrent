@@ -14,7 +14,8 @@ import java.util.concurrent.atomic.AtomicLong;
  */
 public class AtomicBaseTest {
 	public static void main(String[] args) {
-		testAtomicBoolean();
+//		testAtomicBoolean();
+		testAtomicInteger();
 	}
 	
 	/**
@@ -78,7 +79,6 @@ public class AtomicBaseTest {
 			boolean flg = atomicBoolean.get();
 			atomicBoolean.set(!flg);
 			System.out.println(Thread.currentThread().getName() + " value = " + flg);
-
 		}
 	}
 }
